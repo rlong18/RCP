@@ -4,11 +4,6 @@
         padding: 10px;
     }
 
-.header
-    {
-        float: left;
-    }
-
 .items {
     float: left;
     padding: 30px;
@@ -21,19 +16,30 @@
         background-color:orange;
     }   
 
-#navbar
-    {
-        clear:both;
-        border:2px solid black;
-        background-color:powderblue;
-        width: 85px;
-        float: left;
-    }
+ul {
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    overflow: hidden;
+    background-color: #333;
+}
 
-td {
-    border:1px solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 #logo
@@ -47,13 +53,17 @@ td {
         float:left;
         color: black;
         background-color: powderblue;
-        border: 2px solid black;
         text-align: center;
         font-size: 10px;
         padding-top: 1px;
         font-size: 15px;
-        width: 340%;
+        width: 100%;
     }
+
+#citeborder{
+    border: 2px solid black; 
+}
+   
 
 #footer
     {
