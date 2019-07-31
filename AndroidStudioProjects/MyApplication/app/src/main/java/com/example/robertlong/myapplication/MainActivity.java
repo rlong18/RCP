@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, signup.class);
+                Intent intent = new Intent(MainActivity.this, home.class);
                 //intent.putExtra("First name", fname.getText().toString());
                 intent.putExtra("username", username.getText().toString());
                 intent.putExtra("password", pass.getText().toString());

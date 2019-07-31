@@ -19,6 +19,9 @@
         <activity android:name=".signup">
 
         </activity>
+    <activity android:name=".home">
+
+    </activity>
     </application>
 
 </manifest>
